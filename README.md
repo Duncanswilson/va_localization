@@ -15,6 +15,7 @@ using latent representations of images to have systems learn where the hell they
 - Write up a simple Image -> ConvNet -> GPS model to see if we don't need the latent representation. **Duncan preferred** (eta: 3 days) 
 - Set up LSTM or other appropriate model to map from (Image, Latent_Rep) -> GPS **whoever gets to this first**
 - See how the above stuff performs and plan again from here. (eta: 5/6 days)
+
 ###Repo Details
 - A small dataset consisting of dashcam images and GPS coordinates recorded on the morning of January 13'th and stored in ```/data```. 
 - A very rough Frankenstein-style, copypasta'd Variational AutoEncoder Jupyter notebook can be found in ```/models```, soon to be corrected. 
