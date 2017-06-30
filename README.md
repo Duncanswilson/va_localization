@@ -1,10 +1,9 @@
 # va_localization
-using latent representations of images to have systems learn where the hell they are
+using latent representations of images to have systems learn where the hell they =
 
-##Localization Via Latent Representation
-**Idea**: Create an end-to-end differentiable system which learns to map from a dashcam image, through a learned latent representation, to a normalized GPS coordinate to localize a system (car or robot) based solely on the camera data. 
-
-###Work Outline
+## Localization Via Latent Representation
+ 
+### Work Outline
 - Make sure dataset is all standardized and nice. **Richard**
 - Re-upload dataset to Dropbox. **Richard**
 - Push the code to handle the dataset in the Tensorflow standard. **Richard**  
@@ -16,7 +15,7 @@ using latent representations of images to have systems learn where the hell they
 - Set up LSTM or other appropriate model to map from (Image, Latent_Rep) -> GPS **whoever gets to this first**
 - See how the above stuff performs and plan again from here. (eta: 5/6 days)
 
-###Repo Details
+### Repo Details
 - A small dataset consisting of dashcam images and GPS coordinates recorded on the morning of January 13'th and stored in ```/data```. 
 - A very rough Frankenstein-style, copypasta'd Variational AutoEncoder Jupyter notebook can be found in ```/models```, soon to be corrected. 
 	- also soon to include conv net & lstm model too
