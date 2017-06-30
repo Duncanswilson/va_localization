@@ -1,5 +1,6 @@
 # va_localization
-using latent representations of images to have systems learn where they are **This project is not currently being worked on ** 
+using latent representations of images to have systems learn where they are **This project is not currently being worked on** 
+
 
 ## Localization Via Latent Representation
  
